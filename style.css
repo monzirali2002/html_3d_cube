@@ -93,7 +93,7 @@ div.buttons * {
   width: 60px;
   height: 60px;
   position: absolute;
-  background-image: url("../img/stread.jpg");
+  background-image: url("stread.jpg");
   background-size: 60px 60px;
   background-color: #f00;
   opacity: .5;

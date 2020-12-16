@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+  <title></title>
+</head>
+
+<body>
+  <div class="contener">
+    <div class="right">6</div>
+    <div class="front">1</div>
+    <div class="top">2</div>
+    <div class="left">5</div>
+    <div class="back">3</div>
+    <div class="bottom">4</div>
+  </div>
+  <div class="buttons">
+    <input type="number" name="step" id="step" value="" placeholder="step" onmouseout="setstep(this.value)"/>
+    <input type="button" name="reset" id="reset" value="reset" />
+    <input type="button" name="right" id="right" value="" />
+    <input type="button" name="left" id="left" value="" />
+    <input type="button" name="bottom" id="bottom" value="" />
+    <input type="button" name="top" class="up" id="top"value="" />
+  </div>
+  <span>
+    Rotate X : 0 , Rotate Y : 0
+  </span>
+  <script src="js/jquery.js"></script>
+  <script src="js/controle.js"></script>
+</body>
+
+</html>
